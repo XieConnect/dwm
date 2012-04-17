@@ -1,8 +1,18 @@
 dwm - dynamic window manager
 ============================
-dwm is an extremely fast, small, and dynamic window manager for X.
+dwm is an extremely fast, small, and dynamic window manager for X. Current version: v6.0
 
 
+Usage
+-----
+1. Follow the original installation guide (included below);
+2. Create a dwm starter script (eg. dwm_start as attached) and move it to a directory in the PATH (eg. /usr/local/bin/). Make sure it's executable;
+3. Create GDM login option (eg. dwm.desktop as attached) in directory /usr/share/xsessions/ ;
+4. Install tools of your preference: sakura, xlock, wicd, etc.
+5. To administrate Network using GUI, install wicd, and start it with wicd-client -n.
+
+
+(The original document)
 Requirements
 ------------
 In order to build dwm you need the Xlib header files.
