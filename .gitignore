@@ -1,2 +1,4 @@
 *.swp
 .~
+dwm
+config.h

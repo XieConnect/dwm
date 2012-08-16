@@ -5,6 +5,7 @@ dwm is an extremely fast, small, and dynamic window manager for X. Current versi
 
 Usage
 -----
+Note: this customized version might be Ubuntu-specific. Please make changes as necessary.
 * Refer to original installation guide as necessary (included below);
 * Customize config.h;
 * (optional) Enable system tray by applying attached systray.diff patch;
@@ -14,6 +15,7 @@ Usage
     - termianl: sakura
     - screen lock: slock (or xlock, but it sometimes has problem in wake-up), xautolock (use in combination with slock to auto lock when inactive for certain time)
     - GUI for network management: wicd (start it with wicd-client -n), etc.
+    - file manager: pcmanfm
 
 
 Know Issues
