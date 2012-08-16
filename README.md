@@ -5,14 +5,25 @@ dwm is an extremely fast, small, and dynamic window manager for X. Current versi
 
 Usage
 -----
-1. Follow the original installation guide (included below);
-2. Create a dwm starter script (eg. dwm_start as attached) and move it to a directory in the PATH (eg. /usr/local/bin/). Make sure it's executable;
-3. Create GDM login option (eg. dwm.desktop as attached) in directory /usr/share/xsessions/ ;
-4. Install tools of your preference: sakura, xlock, wicd, etc.
-5. To administrate Network using GUI, install wicd, and start it with wicd-client -n.
+* Refer to original installation guide as necessary (included below);
+* Customize config.h;
+* (optional) Enable system tray by applying attached systray.diff patch;
+* Create dwm starter script (eg. dwm_start as attached, with status-bar enabled) in your PATH (eg. /usr/local/bin/). Make sure it's executable;
+* Create GDM login option (eg. dwm.desktop as attached) in directory /usr/share/xsessions/ ;
+* Install tools of your preference (remember to modify your config.h)
+    - termianl: sakura
+    - screen lock: slock (or xlock, but it sometimes has problem in wake-up), xautolock (use in combination with slock to auto lock when inactive for certain time)
+    - GUI for network management: wicd (start it with wicd-client -n), etc.
 
 
-(The original document)
+Know Issues
+-----
+* No support for UTF-8 in title bar
+
+
+Original README in dwm package below
+-------
+
 Requirements
 ------------
 In order to build dwm you need the Xlib header files.

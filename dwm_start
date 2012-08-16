@@ -3,4 +3,7 @@ while true; do
   xsetroot -name "$( date +"%F %R" )"
   sleep 1m    # Update time every minute
 done &
+# auto lock screen after n minutes of inactivity
+# need to install xautolock, slock
+xautolock -time 40 -locker slock &
 exec dwm

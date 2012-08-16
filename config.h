@@ -52,7 +52,7 @@ static const Layout layouts[] = {
 static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
 static const char *termcmd[]  = { "sakura", NULL };
 static const char *filemanager[]  = { "pcmanfm", NULL };
-static const char *lockscreen[]  = { "xlock", NULL };
+static const char *lockscreen[]  = { "slock", NULL };
 static const char *browsercmd[]  = { "google-chrome", NULL };
 
 static Key keys[] = {
